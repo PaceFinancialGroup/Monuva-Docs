@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# Monuva Docs documentation build configuration file, created by
-# sphinx-quickstart on Tue Aug 09 22:21:02 2016.
+# Monuva documentation build configuration file, created by
+# sphinx-quickstart on Tue Aug 09 23:39:12 2016.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -29,9 +29,7 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-    'sphinx.ext.autodoc',
-]
+extensions = []
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -50,7 +48,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Monuva Docs'
+project = u'Monuva'
 copyright = u'2016, George Goodchild'
 author = u'George Goodchild'
 
@@ -135,7 +133,7 @@ html_theme = 'alabaster'
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-# html_title = u'Monuva Docs v0.0.1'
+# html_title = u'Monuva v0.0.1'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
@@ -235,7 +233,7 @@ html_static_path = ['_static']
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'MonuvaDocsdoc'
+htmlhelp_basename = 'Monuvadoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -261,7 +259,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'MonuvaDocs.tex', u'Monuva Docs Documentation',
+    (master_doc, 'Monuva.tex', u'Monuva Documentation',
      u'George Goodchild', 'manual'),
 ]
 
@@ -303,7 +301,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'monuvadocs', u'Monuva Docs Documentation',
+    (master_doc, 'monuva', u'Monuva Documentation',
      [author], 1)
 ]
 
@@ -318,8 +316,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'MonuvaDocs', u'Monuva Docs Documentation',
-     author, 'MonuvaDocs', 'One line description of project.',
+    (master_doc, 'Monuva', u'Monuva Documentation',
+     author, 'Monuva', 'One line description of project.',
      'Miscellaneous'),
 ]
 
