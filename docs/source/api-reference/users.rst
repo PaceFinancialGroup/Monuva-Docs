@@ -1,0 +1,8 @@
+User Endpoints
+==============
+
+Users
+-----
+
+Invitations
+-----------

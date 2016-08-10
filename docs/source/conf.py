@@ -52,7 +52,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Monuva API'
+project = u'Monuva'
 copyright = u'2016, Pace Financial Group Ltd'
 author = u'Pace Financial Group Ltd'
 
