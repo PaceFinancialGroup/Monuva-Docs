@@ -2,7 +2,7 @@ import sphinx_rtd_theme
 
 # -*- coding: utf-8 -*-
 #
-# Monuva Docs documentation build configuration file, created by
+# Monuva API documentation build configuration file, created by
 # sphinx-quickstart on Tue Aug 09 22:21:02 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -52,7 +52,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Monuva Docs'
+project = u'Monuva API'
 copyright = u'2016, Pace Financial Group Ltd'
 author = u'Pace Financial Group Ltd'
 
@@ -137,7 +137,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-# html_title = u'Monuva Docs v0.0.1'
+# html_title = u'Monuva API v0.0.1'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
@@ -237,7 +237,7 @@ html_static_path = ['_static']
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'MonuvaDocsdoc'
+htmlhelp_basename = 'MonuvaDoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -263,7 +263,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'MonuvaDocs.tex', u'Monuva Docs Documentation',
+    (master_doc, 'Monuva.tex', u'Monuva API Documentation',
      u'Pace Financial Group Ltd', 'manual'),
 ]
 
@@ -305,7 +305,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'monuvadocs', u'Monuva Docs Documentation',
+    (master_doc, 'monuva', u'Monuva API Documentation',
      [author], 1)
 ]
 
@@ -320,8 +320,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'MonuvaDocs', u'Monuva Docs Documentation',
-     author, 'MonuvaDocs', 'One line description of project.',
+    (master_doc, 'Monuva', u'Monuva API Documentation',
+     author, 'Monuva', 'How to use the Monuva API.',
      'Miscellaneous'),
 ]
 
