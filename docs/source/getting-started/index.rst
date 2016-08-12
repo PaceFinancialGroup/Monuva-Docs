@@ -20,8 +20,8 @@ you are also able to collect these payments without your customers having to lea
 
 Agencies
 --------
-If you allow brokers or resellers to issue invoices on your belaf it is possible to set up a flexible agency agreement between you and other Monuva account holders enabling
-commision payments can be made instantly and at source.
+If you allow brokers or resellers to issue invoices on your behalf it is possible to set up a flexible agency agreement between you and other Monuva account holders enabling
+commission payments to be made instantly and at source.
 
 Next Steps
 ----------
